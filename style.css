@@ -1,0 +1,205 @@
+body
+{
+background:#edf0f1;
+padding:80px 0 0 0;
+}
+body,input,button
+{
+font-family: 'Roboto', sans-serif;
+
+}
+header
+{
+width:100%;
+height:80px;
+position:fixed;
+padding:15px;
+top:0;
+left:0;
+z-index:5;
+background:#25b99a;
+box-shadow:0px 2px 4px rgba(44,62,80,0.15);
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+}
+header input
+{
+width:100%;
+height:50px;
+float:left;
+font-size:15px;
+font-weight:400;
+color:#fff;
+text-indent:18px;
+padding:0 60px 0 0;
+background:rgba(255,255,255,0.2);
+border-top-left-radius:5px;
+border-bottom-left-radius:5px;
+border-top-right-radius:25px;
+border-bottom-right-radius:25px;
+border:0px;
+box-shadow:none;
+outline:none;
+
+-webkit-appearance:none;
+-moz-appearance:none;
+-ns-appearance:none;
+-0-appearance:none;
+appearance:none;
+}
+header input::-webkit-input-placeholder
+{
+color:rgba(255,255,255,0.75);
+}
+header input:-moz-input-placeholder
+{
+color:rgba(255,255,255,0.75);
+}
+header input::-moz-input-placeholder
+{
+color:rgba(255,255,255,0.75);
+}
+header input:-ns-input-placeholder
+{
+color:rgba(255,255,255,0.75);
+}
+header button
+{
+width:50px;
+height:50px;
+position:absolute;
+top:15px;
+right:15px;
+z-index:2;
+border-radius:25px;
+background:#fff;
+border:0px;
+box-shadow:none;
+outline:none;
+cursor:pointer;
+}
+header button img
+{
+width:50px;
+height:50px;
+border-radius:25px;
+border:0px;
+outline:none;
+padding:2px;
+}
+ul.todo
+{
+width:100%;
+float:left;
+}
+.container
+{
+width:100%;
+float:left;
+padding:15px;
+}
+ul.todo li
+{
+width:100%;
+min-height:50px;
+float:left;
+font-size:14px;
+font-weight:500;
+color:#444;
+line-height:22px;
+background:#fff;
+border-radius:5px;
+position:relative;
+padding:14px 100px 14px 14px;
+box-shadow:0px 1px 2px rgba(44,62,80,0.10);
+margin:0 0 10px 0;
+}
+ul.todo:last-of-type
+{
+margin:10px;
+}
+ul.todo li .buttons
+{
+width:100px;
+height:50px;
+position:absolute;
+top:0;
+right:0;
+}
+ul.todo li .buttons button
+{
+width:50px;
+height:50px;
+float:left;
+position:relative;
+background:none;
+border:0px;
+box-shadow:none;
+outline:none;
+cursor:pointer;
+
+-webkit-appearance:none;
+-moz-appearance:none;
+-ns-appearance:none;
+-0-appearance:none;
+appearance:none;
+}
+ul.todo li .buttons button:last-of-type:before
+{
+content:'';
+width:1px;
+height:30px;
+position:absolute;
+top:10px;
+left:0;
+background:#edf0f1;
+}
+ul.todo li .buttons button img
+{
+width:22px;
+height:22px;
+position:absolute;
+top:50%;
+left:50%;
+margin:-11px 0 0 -11px;
+border:0;
+}
+ul.todo li .buttons button.remove:hover
+{
+border:1px solid red;
+border-radius:8px;
+}
+ul.todo li .buttons button.complete:hover
+{
+border:1px solid green;
+border-radius:8px;
+}
+ul.todo#completed li .buttons button.complete
+{
+border:4px solid green;
+border-radius:25px;
+}
+ul.todo#completed li .buttons button.complete img
+{
+border:2px solid #fff;
+}
+ul.todo  #completed
+{
+position:relative;
+padding:60px 0 0 0;
+}
+ul.todo #completed:before
+{
+content:'';
+width:150px;
+height:1px;
+background:#ccc;
+position:absolute;
+top:30px;
+left:50%;
+margin:0 0 0 -75px;
+}
+.head
+{
+	color:#99a;
+}
